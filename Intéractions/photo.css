@@ -1,0 +1,31 @@
+ul{
+	width: 800px;
+}
+
+li{
+	list-style-type: none;
+	margin: 1em;
+	padding: 0.5px;
+	float: left;
+}
+
+img{
+	padding: 2px;
+}
+
+.clear{
+	clear: both;
+}
+
+p{
+	margin-left: 54px;
+}
+
+li:hover{
+background-color: silver;
+transition-delay: 0.5s;
+}
+
+.selected{
+	background-color: forestgreen !important;
+}

@@ -1,0 +1,29 @@
+.bloque{
+    display: inline-block;
+    width: 18%;
+    padding: 1%;
+    height: 18vw;
+    margin-top: 23%;
+}
+
+.btn-display{
+    background-color: red;
+    height: 100%;
+}
+
+#bonbon{
+    background-image:url(../img/bonbon.jpg);
+    background-size: contain;
+}
+
+#cake{
+    background-image: url(../img/cake.jpg);
+    background-size:cover;
+}
+
+#fer_rouille{
+    background-image: url(../img/fer_rouille.jpg);
+    background-size: cover;
+
+
+}

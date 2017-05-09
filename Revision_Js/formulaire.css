@@ -1,0 +1,23 @@
+body{
+    background: red;
+}
+
+.error{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.valid{
+    background-color: green;
+    color: white;
+    padding: 2vh;
+    font-size: 5vh;
+    text-align: center;
+}
+
+.btnsubmit{
+    width: 100%;
+
+}

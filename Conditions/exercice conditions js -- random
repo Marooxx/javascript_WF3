@@ -1,0 +1,21 @@
+## Enoncé
+
+L'utilisateur choisit dans un prompt du navigateur pierre, feuille ou ciseau, l'ordinateur choisit aléatoirement l'une des trois possibilités, et la partie commence !
+
+## Remarques
+
+* On doit pouvoir indifféremment saisir le mot en minuscules comme en majuscules.
+* Le ciseau est écrasé par la pierre.
+* La feuille est découpée par le ciseau.
+* La pierre est enveloppée par la feuille.
+* Si le joueur et l'ordinateur font le même choix on obtient une égalité.
+
+//On déclare les variables
+//on génère le choix de l'ordinateur avec Math.random()
+//on va demander le choix du joueur
+//on démarre la logique du jeu
+//on affiche:
+//l'ordinateur a fait le choix:
+//le joueur  a fait un choix:
+//vous avez gagné !
+//vous avez perdu!

@@ -1,0 +1,22 @@
+<script>
+
+// La boucle for
+// Permet d'exécuter du code X fois
+
+for(var compteur=1; compteur<=10; compteur=compteur+1 ( ou compteur++)) {
+
+	document.write('<p><strong> Le compteur vaut '+ compteur +'</strong></p>');
+
+}
+for(variable initialisation;condition de sortie;ce que la variable doit faire)
+
+// SYNTAXE
+for(initialisation; condition de sortie de la boucle; incrementation)
+incrémentation = ajouter qqch
+décrémentation= on retire qqch
+
+.length appliquer sur un tableau , fait ressortir le nombre d'éléments ou d'entrée  dans le tableau.
+
+//// Boucle While/////
+syntax:
+while(condition){exécution};

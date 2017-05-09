@@ -1,0 +1,24 @@
+// Exemple d'animation de menu mobile en CSS + JS (grace aux propriétés CSS transform et transition)
+// Auteur : Fred Lossignol
+// Source pour l'animation du hamburger (http://callmenick.com/post/animating-css-only-hamburger-menu-icons)
+
+(function() {
+  "use strict";
+
+  var toggle = document.querySelector(".c-hamburger");
+  var menu = document.querySelector('#menu-panel');
+
+  // au clic du user sur le bouton hamburger, on déclenche 2 actions :
+  // - animation du menu haburger
+  // - glissement du panneau menu vers la droite
+  toggle.addEventListener("click", function(e) {
+    e.preventDefault();
+		this.classList.toggle('is-active');
+
+    // on ajoute ici la class show à la div#menu-panel
+    // (et en css on fait un transform: translateX(0); )
+   (this.classList.contains("is-active") === true) ? menu.classList.toggle("show"):menu.classList.remove("show");
+
+  });
+
+})();

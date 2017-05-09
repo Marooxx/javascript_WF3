@@ -1,0 +1,18 @@
+tr{
+    border: 1px solid;
+
+}
+td{
+    border: 1px solid;
+    height: 20px;
+    width: 20px;
+}
+
+table{
+    border-collapse: collapse;
+    background-color: #90c3d4;
+}
+
+.color{
+    background: red;
+}

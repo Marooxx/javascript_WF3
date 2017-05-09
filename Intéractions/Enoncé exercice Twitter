@@ -1,0 +1,13 @@
+// Créer un compteur de caractères "Twitter Like"
+
+// L'utilisateur peut saisir un texte de 140 caractères dans un textarea#tweet-content
+// Un paragraphe #counter-block affiche les caractères restants
+
+// Comment procéder ?
+// 1 Detecter l'evenement à chaque fois que l'utilisateur presse une touche
+// 2 Dans la fonction lancée lorsque l'event est détecter calculer le nb de caractères restants et l'afficher dans le p#counter-block
+
+// INDICATIONS
+-> Utiliser l'event keyup
+-> Utiliser la propriété .value pour récupérer la valeur d'un input ou d'un textarea
+-> Utiliser .length
